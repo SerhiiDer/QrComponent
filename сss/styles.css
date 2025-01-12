@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    background-color: rgb(213, 225, 239);
+    
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.qr {
+    max-width: 320px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.qr__content {
+    padding: 16px;
+   
+}
+
+.qrCodeWrapper {
+    margin: 0 auto;
+}
+
+.qrImage {
+    width: 288px;
+    height: 288px
+}
+
+.qr__info {
+    text-align: center;;
+}
+
+.qr__text {
+    color: rgb(104, 119, 141);
+    font: 17px;
+}
+
+.qr__header {
+    color: #1F314F
+}
